@@ -1,0 +1,577 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kubik {
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_one {
+    width: 550px;
+    height: 530px;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid red;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+
+.box_1 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid blueviolet;
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: 195px;
+}
+
+.box_2 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid green;
+    position: absolute;
+    z-index: 3;
+    top: 350px;
+    left: 370px;
+}
+
+.box_group {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.box_group_1 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid red;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.box_group_2 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid blueviolet;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 195px;
+}
+
+.box_group_3 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid green;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 370px;
+}
+
+.container_1 {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.container_2 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    background: none;
+    border: 3px solid red;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container_3 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    background: none;
+    border: 3px solid blueviolet;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 170px;
+}
+
+.container_4 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    background: none;
+    border: 3px solid green;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 290px;
+}
+
+.content {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.content_1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 3px solid green;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.content_2 {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 3px solid red;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 170px;
+}
+
+.content_3 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 3px solid blueviolet;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 290px;
+}
+
+.dilshod {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.dilshod1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 3px solid green;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.dilshod2 {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 3px solid red;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 170px;
+    z-index: 3;
+}
+
+.dilshod3 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 3px solid blueviolet;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 290px;
+    z-index: 2;
+}
+
+.dilshod_one {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.dilshod_1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 3px solid green;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.dilshod_2 {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 3px solid red;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 170px;
+    z-index: 1;
+}
+
+.dilshod_3 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 3px solid blueviolet;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 290px;
+    z-index: 3;
+}
+
+.box_one {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.box-two {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 3px solid green;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    z-index: 3;
+}
+
+.box-theree {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 3px solid red;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 170px;
+    z-index: 2;
+}
+
+.box-four {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 3px solid blueviolet;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 290px;
+    z-index: 1;
+}
+
+.row_one {
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.row_two {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border: 3px solid green;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.row_theree {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border: 3px solid blue;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 240px;
+}
+
+.olmos {
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.olmos_1 {
+    width: 450px;
+    height: 450px;
+    background-color: red;
+    border: 3px solid gray;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.olmos_2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 4px dashed black;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.svetafor {
+    width: 550px;
+    height: 560px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.svetafor_1 {
+    width: 200px;
+    height: 556px;
+    background-color: white;
+    border: 4px dashed gray;
+    position: absolute;
+    position: relative;
+    left: auto;
+}
+
+.svetafor_red {
+    width: 170px;
+    height: 170px;
+    background-color: red;
+    border: 3px dotted black;
+    position: absolute;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+
+}
+
+.svetafor_yellow {
+    width: 170px;
+    height: 170px;
+    background-color: yellow;
+    border: 3px dotted black;
+    position: absolute;
+    border-radius: 50%;
+    top: 190px;
+    left: 10px;
+}
+
+.svetafor_green {
+    width: 170px;
+    height: 170px;
+    background-color: green;
+    border: 3px dotted black;
+    position: absolute;
+    border-radius: 50%;
+    top: 370px;
+    left: 10px;
+}
+
+.container {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_group_one {
+    width: 480px;
+    height: 480px;
+    background-color: green;
+    border: 3px dashed gray;
+    border-radius: 50%;
+}
+.glaza{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 80px;
+    left: 125px;
+}
+.glaza_1{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 80px;
+    left: 300px;
+}
+.row_1{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 220px;
+    left: 244px;
+}
+.row {
+    width: 190px;
+    height: 35px;
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    left: 185px;
+}
+.small {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.small_1 {
+    width: 480px;
+    height: 480px;
+    background-color: goldenrod;
+    border: 3px dashed gray;
+    border-radius: 50%;
+}
+.small_2 {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 80px;
+    left: 125px;
+}
+.small_3 {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 80px;
+    left: 300px;
+}
+.small_4 {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 220px;
+    left: 244px;
+}
+.small_5 {
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 50px 50px;
+    top: 350px;
+    left: 195px;
+}
+.small_6{
+    width: 170px;
+    height: 50px;
+    background-color: goldenrod;
+    position: absolute;
+    border-radius: 50%;
+    top: 320px;
+    left: 191px;
+}
+.lorem{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden auto;
+    margin-bottom: 40px;
+}
+.top{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+    height: 50px;
+    background-color: rgb(252, 210, 104);
+    margin-bottom: 20px;
+    position: sticky;
+}
+.bottom{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden auto;
+}
+.lorem_2{
+    text-align: center;
+    top: 10px;
+    bottom: 20px;
+}
+.bottom_1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+    height: 50px;
+    background-color: red;
+    margin-bottom: 20px;
+    position: fixed;
+    position: static;
+    z-index: 3;
+}
